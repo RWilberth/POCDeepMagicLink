@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "poc_app_flutter",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "-y",
+        "http-server",
+        "C:\\Users\\WilberthAntonioRivas\\Proyectos\\flutter\\POCDeepMagicLink\\frontend\\poc_app\\build\\web",
+        "-p",
+        "8765",
+        "-c-1"
+      ],
+      "port": 8765
+    }
+  ]
+}

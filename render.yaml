@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pocapi
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./backend/PocApi/Dockerfile
+    dockerContext: ./backend/PocApi
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+    autoDeploy: true

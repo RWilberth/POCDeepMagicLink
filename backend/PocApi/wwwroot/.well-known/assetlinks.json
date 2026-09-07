@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.pocdeeplink.poc_app",
+      "sha256_cert_fingerprints": [
+        "BB:A6:86:17:7F:6B:74:A2:94:7C:3A:33:62:6A:41:2E:22:BA:86:C7:3B:A3:C2:FC:02:52:EB:3E:C3:4E:40:B7"
+      ]
+    }
+  }
+]
