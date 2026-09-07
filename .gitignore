@@ -15,6 +15,10 @@ frontend/**/ios/.symlinks/
 frontend/**/*.iml
 frontend/**/.idea/
 
+key.properties
+*.jks
+*.keystore
+
 # IDE / OS
 .vs/
 .vscode/
